@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#101b19"/>
+  <path d="M0 86h1200M0 172h1200M0 258h1200M0 344h1200M0 430h1200M0 516h1200M100 0v630M300 0v630M500 0v630M700 0v630M900 0v630M1100 0v630" stroke="#283a34" stroke-width="1"/>
+  <circle cx="1030" cy="460" r="160" fill="none" stroke="#d8ff80" stroke-width="1" opacity=".6"/>
+  <circle cx="1030" cy="460" r="110" fill="none" stroke="#d8ff80" stroke-width="1" opacity=".6"/>
+  <circle cx="1030" cy="460" r="58" fill="#d8ff80"/>
+  <text x="86" y="120" fill="#d8ff80" font-size="26" font-family="Arial,sans-serif" letter-spacing="8">PORTFOLIO / 2026</text>
+  <text x="80" y="305" fill="#f5f4ef" font-size="102" font-family="Arial,sans-serif" font-weight="700">Phan Chi Cuong</text>
+  <text x="85" y="375" fill="#abbdb3" font-size="31" font-family="Arial,sans-serif">Backend &amp; Full-stack Developer</text>
+</svg>
