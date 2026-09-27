@@ -4,6 +4,9 @@ test('projects, links, and resume are available', async ({ page, request }) => {
   const errors: string[] = []
   page.on('pageerror', error => errors.push(error.message))
   await page.goto('/')
+  await expect(page.locator('header .brand img')).toHaveAttribute('src', '/logo.png')
+  await expect(page.locator('link[rel="icon"]')).toHaveAttribute('href', '/logo.png')
+  await expect.poll(() => page.locator('header .brand img').evaluate(img => (img as HTMLImageElement).naturalWidth)).toBeGreaterThan(0)
   await expect(page.getByRole('heading', { level: 1 })).toContainText('Phan Chí')
   await expect(page.getByRole('heading', { name: /EcoQuest Campus/i })).toBeVisible()
   await expect(page.getByRole('heading', { name: /FreshTrace/i })).toBeVisible()
